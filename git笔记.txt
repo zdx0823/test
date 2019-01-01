@@ -28,3 +28,15 @@ git remote -v 查看远程库连接
 git remote rm origin  删除远程库连接
 
 git pull --rebase origin master 从远程拉取数据
+
+
+
+保留本地修改，添加远程修改项
+git stash
+git pull
+git stash pop
+
+远程完全覆盖本地
+git reset --hard
+git pull
+
